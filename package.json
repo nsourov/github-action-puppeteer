@@ -4,13 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.2",
     "puppeteer": "^3.0.1"
   },
-  "devDependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^7.1.2"
-  },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --timeout 60000"
   }
 }
