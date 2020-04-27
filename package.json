@@ -4,11 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "puppeteer": "^3.0.1"
-  },
-  "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^7.1.2"
+    "mocha": "^7.1.2",
+    "puppeteer": "^3.0.1"
   },
   "scripts": {
     "test": "mocha"

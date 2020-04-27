@@ -6,7 +6,7 @@ name: Puppeteer in headless mode
 # events but only for the master branch
 on:
   push:
-    branches: [master]
+    branches: [master, puppeteer]
   pull_request:
     branches: [master]
 
