@@ -14,7 +14,6 @@ describe('Check Example Homepage', () => {
 		await page.goto('https://example.com', { waitUntil: 'networkidle0' });
 		const title = await page.title();
 		expect(title).equal('Example Domain');
-		expect('Example Domain').equal('Example Domain');
 	}).timeout(10000);
 });
 
