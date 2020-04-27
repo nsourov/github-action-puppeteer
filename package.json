@@ -9,6 +9,6 @@
     "puppeteer": "^3.0.1"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --timeout 60000"
   }
 }
